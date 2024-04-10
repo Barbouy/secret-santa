@@ -6,7 +6,8 @@ export default {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
-  theme: { fontFamily: { sans: ["Urbanist", "ui-sans-serif", "sans-serif"], } },
+  darkMode: "selector",
+  theme: { fontFamily: { sans: ["Noto Sans", "ui-sans-serif", "sans-serif"], } },
   plugins: [
     iconsPlugin({
       // Collections: https://icones.js.org/

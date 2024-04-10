@@ -1,15 +1,13 @@
 <template>
-  <div>
-    <router-link :to="{ name: 'auth' }">
-      Auth
-    </router-link>
-    <router-link
-      :to="{ name: 'home' }"
-      class="text-amber-500">
-      Home
-    </router-link>
+  <div class="flex flex-col items-center">
+    <strong>
+      Bienvenue,
+    </strong>
+    <span class="text-sm text-slate-500 dark:text-slate-400">
+      Ceci est le contenu de ma page
+    </span>
   </div>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 </script>
